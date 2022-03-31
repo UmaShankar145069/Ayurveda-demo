@@ -1,0 +1,127 @@
+.bannertext-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 40px;
+  margin-top: -1rem;
+}
+
+.bannertext-container .img-cont {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.bannertext-container .img-cont img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.bannertext-container h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  margin-top: -20px;
+  margin-bottom: 3px;
+  color: #7ac88b;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.bannertext-container h3 {
+  font-size: 1.5rem;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: rgb(135, 206, 29);
+}
+
+.bannertext-container p {
+  font-size: 1.2rem;
+  margin-top: 0px;
+  color: rgb(135, 206, 29);
+  z-index: 20;
+  margin-bottom: 120px;
+}
+
+/* social icon style */
+
+.bannertext-container .social-container h3 {
+  font-size: 0.9rem;
+  margin-bottom: 3px;
+  color: #5b9738;
+}
+
+.social-container .social-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.social-icons div {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #61a23b;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons img {
+  color: white;
+  width: 15px;
+  height: 15px;
+}
+
+/* responsive style */
+@media (max-width: 1102px) {
+  .bannertext-container h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1036px) {
+  .bannertext-container {
+    width: 70%;
+  }
+
+  .bannertext-container h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 747px) {
+  .bannertext-container {
+    width: 100%;
+  }
+
+  .bannertext-container h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .bannertext-container {
+    margin-top: -7rem;
+  }
+
+  .bannertext-container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .bannertext-container {
+    margin-top: -4rem;
+    margin-left: 25px;
+  }
+
+  .bannertext-container h1 {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,47 @@
+.catogary-submenu {
+  width: 10rem;
+  position: absolute;
+  top: 60px;
+  list-style: none;
+  text-align: start;
+}
+
+.catogary-submenu li {
+  background: #7ac88b;
+  cursor: pointer;
+}
+
+.catogary-submenu li a {
+  font-size: 1.2rem;
+}
+
+.catogary-submenu li a:hover {
+  background: #a7deb1;
+}
+
+.catogary-submenu.clicked {
+  display: none;
+}
+
+.submenu-item {
+  display: block;
+  width: 80%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+
+/* .submenu-item:hover {
+  background: rgb(0, 175, 175);
+} */
+
+@media (max-width: 800px) {
+  .catogary-submenu {
+    width: 10rem;
+  }
+
+  #catogary-submenu li a {
+    font-size: 1rem;
+  }
+}
